@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
+html {
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC8080), to(#808080));
+  background: linear-gradient(to bottom, #BC8080, #808080);
+   background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: space-between;
+  font-family: helvetica;
+}
+
+.border {
+  border: solid orange 1px;
+}
+
+.border2 {
+  border: solid green 3px;
+}
+
+.border3 {
+  border: solid blue 1px;
+}
+
+ .events-row {
+   height: 100%;
+   width: 82%; 
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: space-evenly;
+  
+} 
+
+.margin {
+  margin-bottom: 3vw;
+  margin-left: 2vw;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.side-container {
+  /* border: solid red 3px;
+  border-radius: 10%; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 30%;
+  left: 90%;
+
+
+}
+
+.sm-icons {
+  width: 10vw;
+}
+
+#ig-icon {
+  width: 13vw;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.space-evenly {
+  display: flex;
+  justify-content: space-between;
+}
+
+.event-container {
+  background-color: orange;
+  width: 300px;
+  height: 350px;
+
+}
+
+.nav-row {
+height: 100px;
+}
+
+.nav-mimic-spacer {
+  height: 100px;
+}
+.center-self {
+  display: flex;
+  align-self: center;
+}
+
+
+.vis {
+  visibility: hidden;
+}
+
+  .top-title {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+      font-size: 30pt;
+  font-family: arial black;
+  color: linear-gradient(to right, #CEAA47, #808080);
+  }
+
+#z0 {
+  z-index: 0;
+}
+#z1 {
+  z-index: 1;
+}
+
+#z2 {
+  z-index: 2;
+
+}
+
+#z3 {
+  z-index: 3;
+
+}
+
+#z4 {
+  z-index: 4;
+}
+
+.circle {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  border-color: transparent;
+  background-size: 45vw 45vw;
+  outline: none;
+}
+
+.circle:hover {
+  color: white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-size: 40vw 40vw;
+}
+
+.hidden-display {
+  display: none;
+}
+
+a.navbar-item {
+    font-size: 30pt;
+  font-family: Impact;
+  color: linear-gradient(to right, #CEAA47, #808080);
+}
+
+.special {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+#hip-title {
+  color: white;
+     font-size: 50pt;
+  font-family: Impact;
+ 
+}
+
+#green {
+  background-image: -webkit-gradient(linear, left top, right top, from(#CEAA47), to(#808080));
+  background-image: linear-gradient(to right, #CEAA47, #808080);
+
+}
+
+#blue {
+  background-image: url(http://students.washington.edu/whitec23/portfolio/media/verycoolgraphic.png);
+  background-position: center;
+}
+
+#yellow {
+  background-color: wheat;
+}
+
+#red {
+  background-image: url("http://students.washington.edu/whitec23/portfolio/media/theteam.png");
+  background-position: center;
+}
+
+section div button h1 {
+  color: white;
+  font-family: helvetica;
+  font-size: 3vw;
+}
+  span#theteam {
+    word-spacing: -10px;
+    letter-spacing: -2px;
+}
+@media only screen and (min-width: 900px) {
+  .side-container {
+  top: 20%;
+  }
+  .wds {
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .top-title {
+    left: 40%;
+  }
+  span#theteam {
+    
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  
+ 
+  #z3 {
+    display: none;
+  }
+ .top-title {
+     left: 35%;
+ }
+ .wds {
+  left: 40%;
+}
+  
+}
+
+.none {
+  display: none;
+}
+
+.floating {
+
+}
+
+ section div a {
+  padding: 0% 0% 0% 5%;
+  display: flex;
+  min-width: 40%;
+  border-radius: 3%;
+ 
+}  
+
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#caption {
+  color: white;
+  font-size: 20pt;
+  font-family: impact;
+  width: 400px;
+  padding: 0% 0% 0% 5%;
+  
+}
+
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 80%;
+  background-image: url('https://instagram.fric1-2.fna.fbcdn.net/vp/d9bc8150d121d6219eb5623ccd812ea2/5DF1D578/t51.2885-15/e35/51947709_252320002381631_1082059992946515717_n.jpg?_nc_ht=instagram.fric1-2.fna.fbcdn.net&_nc_cat=111');
+  background-position: center;
+  backgroun-size: 100px 100px;
+}
+
+
+/*add vis class to section div a clas when browser under px
+
+when animation end for circles display none them
+
+display none after hip hop pressed
+
+the team content
+
+animation for hip hop tab?
+
+// gray vector with question mark for events
+*/
+
+.info-content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  background-color: black;
+  height: 30vw;
+  width: 80%;
+  margin-bottom: -5px;
+  
+  margin: auto;
+    margin-bottom: -5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.texthelper {
+  
+  width: 24vw;
+}
+
+.image-placeholder {
+/*   background-color: tan; */
+  height: 22vw;
+  max-width: 100%;
+}
+
+
+.textposition {
+  width: 80%;
+  height: 100%;
+  font-size: 3vw;
+  text-align: center;
+  color: white;
+ 
+}
+
+ span {
+  text-align: center;
+
+}
+
+.black {
+  color: black;
+  opacity: .8;
+}
+
+.graffitifont {
+   font-family: 'Permanent Marker', cursive;
+}
+
+#bio {
+  line-height: 150%;
+  font-size: 1.5vw;
+   text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.biofaq {
+ 
+
+}
+
+.box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  padding-top: 1%;
+  width: 90%;
+  height: 75%;
+  
+}
+
+.relative {
+  position: relative;
+  
+  left: 15%;
+}
+
+.dupOfficer {
+  position: absolute;
+  transform: translateY(5vw);
+  z-index: 2;
+}
+
+.image-placeholder:hover ~ .hipness:after{
+     position: absolute;
+     transform: translateY(150px);
+     font-family: 'Fredericka the Great', cursive;
+     font-size: 2vw;
+     z-index: 5;
+     color: lime;
+     left: 450px;
+     visibility: visible;
+  }
+
+#hhsaprez:hover ~ .hipnessprez:after {
+  content: 'Hipness: Owns 2 dogs that are named \A after milk tea toppings';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsavp:hover ~ .hipnessvp:after {
+  content: 'Hipness: Once chipped her tooth cause\A she was hungry and ate really fast \A and bit on a metal fork by accident.';
+   font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsasec:hover ~ .hipnessec:after {
+  content: 'Hipness: has a twin sister';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsatreasure:hover ~ .hipnesstre:after {
+  content: 'Hipness: Been to Japan and China.\A All his hobbies are covered in \A contemporary hip hop music:\A basketball, anime, dance, fashion';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsadc1:hover ~ .hipnessdc1:after {
+  content: 'Hipness: For several years when she \A was younger she thought her astrological \A sign was a Jedi... shes actually a Gemini';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+#hhsadc2:hover ~ .hipnessdc2:after {
+  content: 'Hipness: Mains Falco in smash ultimate';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+#hhsadc3:hover ~ .hipnessdc3:after {
+  content: 'Hipness: Was once a backup dancer \A for Snoop Dogg... Aside from dancing, \A he’s passionate about intersectional \A activism and journalism';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+#hhsapr:hover ~ .hipnesspr:after {
+  content: 'Hipness: Has a plant named she named \A coco cos it’s really cute!';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+#hhsamr:hover ~ .hipnessmr:after {
+  content: 'Hipness: The biggest movie enthusiast \A you’ll ever meet. Dance is lyf.';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsadl:hover ~ .hipnessdl:after {
+  content: 'Hipness: Has a black belt in taekwondo';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsawbd:hover ~ .hipnesswbd:after {
+  content: 'Hipness: He’s got TWO phones';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#hhsadj:hover ~ .hipnessdj:after {
+  content: 'Hipness: Has a pet cat and dog named \A William and Bear. Loves playing basically \A ANY sport. Wants to turn music into her \A full time career after college';
+  font-family: 'Fredericka the Great', cursive;
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vw;
+  left: 40vw;
+  color: white;
+  transform: translateY(10vw);
+  white-space: pre;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  min-width: 100%; 
+  min-height: 100%;
+  
+}
+
+.wds {
+  width: 400px;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
