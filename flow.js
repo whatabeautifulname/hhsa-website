@@ -37,6 +37,7 @@ $(document).ready(function() {
 
 
   $("#green, #events").click(function() {
+    $('html').css('background: linear-gradient(to bottom, #BC8080, #808080);')
      $("span#theteam, span#hiphop, span#dance, span#home").addClass("vis");
     $(".nav-mimic-spacer").css("height", "100px");
     $("#z1").removeClass("hidden-display");
@@ -119,6 +120,7 @@ $(document).ready(function() {
   });
 
   $("#red, #theteam").click(function() {
+    $('html').css('background: linear-gradient(to bottom, #BC8080, #808080);')
     $("span#events, span#hiphop, span#dance, span#home").addClass("vis");
     $(".nav-mimic-spacer").css("height", "100px");
     $("#z1, #z2, #z5, #wdsgraphic").addClass("hidden-display");
