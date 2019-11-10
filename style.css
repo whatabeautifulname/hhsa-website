@@ -221,9 +221,9 @@ section div button h1 {
   .side-container {
   top: 20%;
   }
-  .wds {
+  /* .wds {
     left: 10%;
-  }
+  } */
 }
 @media only screen and (max-width: 1024px) {
   .top-title {
@@ -563,5 +563,5 @@ animation for hip hop tab?
   width: 400px;
   position: absolute;
   top: 25%;
-  left: 5%;
+  
 }

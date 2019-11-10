@@ -108,7 +108,7 @@ $(document).ready(function() {
     $("#z1, #z5, #wdsgraphic").addClass("hidden-display");
     $("#z2").removeClass("hidden-display");
     $("#dance").removeClass("vis");
-    $("#blue").css("background-size", "40vw 40vw");
+    // $("#blue").css("background-size", "40vw 40vw");
   });
 
   $("#yellow, #hiphop").click(function() {
