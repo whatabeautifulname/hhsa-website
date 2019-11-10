@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 html {
-  background: -webkit-gradient(linear, left top, left bottom, from(#BC8080), to(#808080));
   background: linear-gradient(to bottom, #BC8080, #808080);
    background-attachment: fixed;
   background-repeat: no-repeat;
@@ -172,7 +171,7 @@ height: 100px;
 
 a.navbar-item {
     font-size: 30pt;
-  font-family: Impact;
+  font-family: Impact, Oswald;
   color: linear-gradient(to right, #CEAA47, #808080);
 }
 
@@ -185,12 +184,12 @@ a.navbar-item {
 #hip-title {
   color: white;
      font-size: 50pt;
-  font-family: Impact;
+  font-family: Impact, Oswald;
  
 }
 
 #green {
-  background-image: -webkit-gradient(linear, left top, right top, from(#CEAA47), to(#808080));
+
   background-image: linear-gradient(to right, #CEAA47, #808080);
 
 }
