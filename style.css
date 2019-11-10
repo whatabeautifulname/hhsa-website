@@ -5,10 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 html {
-  /* background: linear-gradient(to bottom, #BC8080, #808080);
-   background-attachment: fixed;
-  background-repeat: no-repeat; */
-  background: blue;
+  background: linear-gradient(to bottom, #BC8080, #808080);
   margin: 0;
   padding: 0;
   display: flex;
