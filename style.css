@@ -6,7 +6,10 @@
 
 html {
   background: linear-gradient(to bottom, #BC8080, #808080);
-   /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
