@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 html {
-  background: #BC8080;
+  background: linear-gradient(to bottom, #BC8080, #808080);
    background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
@@ -221,6 +221,8 @@ section div button h1 {
   .side-container {
   top: 20%;
   }
+
+
   /* .wds {
     left: 10%;
   } */
@@ -232,6 +234,9 @@ section div button h1 {
   span#theteam {
     
     left: 35%;
+  }
+  html {
+    background: #808080;
   }
 }
 
