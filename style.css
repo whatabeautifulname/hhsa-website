@@ -24,6 +24,14 @@ html {
   font-family: helvetica;
 }
 
+.background-color-html {
+  width: 600px;
+  height: 600px;
+  background-color: #808080;
+  z-index: -5;
+  visibility: hidden;
+}
+
 .border {
   border: solid orange 1px;
 }
