@@ -102,7 +102,7 @@ $(document).ready(function() {
   });
 
   $("#blue, #dance").click(function() {
-   $('html').css('background: #BC8080');
+   $('html').css('background-color: #BC8080');
     $("span#events, span#hiphop, span#theteam, span#home").addClass("vis");
     $(".nav-mimic-spacer").css("height", "100px");
         $("#z0").addClass("hidden-display");
