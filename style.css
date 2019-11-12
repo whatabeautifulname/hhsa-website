@@ -5,9 +5,20 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 html {
-  background: linear-gradient(to bottom, #BC8080, #808080);
+  
+  background: -moz-linear-gradient(#BC8080, #808080); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#BC8080, #808080); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BC8080), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#BC8080, #808080); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#BC8080, #808080); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BC8080', endColorstr=#808080); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=#808080)"; /* IE8+ */  
+    background: linear-gradient(#BC8080, #808080); /* the standard */  
+
+
+  /* background: linear-gradient(to bottom, #BC8080, #808080);
    background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   margin: 0;
   padding: 0;
   display: flex;
@@ -237,9 +248,7 @@ section div button h1 {
     
     left: 35%;
   }
-  html {
-    background: url('https://students.washintgon.edu/whitec23/portfolio/pics/background-image.PNG')
-  }
+
 }
 
 @media only screen and (max-width: 900px) {
