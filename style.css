@@ -14,9 +14,7 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BC8080', endColorstr=#808080); /* IE6 & IE7 */  
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=#808080)"; /* IE8+ */  
     background: linear-gradient(#BC8080, #808080); /* the standard */  
-
-
-   background: linear-gradient(to bottom, #BC8080, #808080);
+   /* background: linear-gradient(to bottom, #BC8080, #808080); */
    background-attachment: fixed;
   background-repeat: no-repeat; 
   margin: 0;
