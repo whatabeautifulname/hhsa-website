@@ -217,12 +217,7 @@ section div button h1 {
     word-spacing: -10px;
     letter-spacing: -2px;
 }
-@media only screen and (min-width : 320px) and (max-width : 480px) {
-html {
-  background: url('https://students.washintgon.edu/whitec23/portfolio/pics/background-image.PNG')
-}
 
-}
 
 @media only screen and (min-width: 900px) {
   .side-container {
@@ -242,7 +237,9 @@ html {
     
     left: 35%;
   }
- 
+  html {
+    background: url('https://students.washintgon.edu/whitec23/portfolio/pics/background-image.PNG')
+  }
 }
 
 @media only screen and (max-width: 900px) {
