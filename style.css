@@ -94,8 +94,8 @@ html {
   width: 10vw;
 }
 
-#ig-icon {
-  width: 13vw;
+#fb:hover {
+  content: url('https://students.washington.edu/whitec23/portfolio/pics/hoverfb.png');
 }
 .text-center {
   display: flex;
