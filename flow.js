@@ -41,7 +41,7 @@ $(document).ready(function() {
      $("span#theteam, span#hiphop, span#dance, span#home").addClass("vis");
     $(".nav-mimic-spacer").css("height", "100px");
     $("#z1").removeClass("hidden-display");
-    $("#z2, #z0, #wdsgraphic").addClass("hidden-display");
+    $("#z2, #z0, #wdsgraphic, .background-color-html").addClass("hidden-display");
     $("#events").removeClass("vis");
 
     var firstRowEvents = anime.timeline();
@@ -107,7 +107,7 @@ $(document).ready(function() {
     $(".nav-mimic-spacer").css("height", "100px");
         $("#z0").addClass("hidden-display");
     $("#z1, #z5, #wdsgraphic").addClass("hidden-display");
-    $("#z2").removeClass("hidden-display");
+    $("#z2, .background-color-html").removeClass("hidden-display");
     $("#dance").removeClass("vis");
     // $("#blue").css("background-size", "40vw 40vw");
   });
@@ -123,7 +123,7 @@ $(document).ready(function() {
     $('html').css('background: linear-gradient(to bottom, #BC8080, #808080)');
     $("span#events, span#hiphop, span#dance, span#home").addClass("vis");
     $(".nav-mimic-spacer").css("height", "100px");
-    $("#z1, #z2, #z5, #wdsgraphic").addClass("hidden-display");
+    $("#z1, #z2, #z5, #wdsgraphic, .background-color-html").addClass("hidden-display");
     $('#theteam').removeClass('vis');
     $("#z0").removeClass("hidden-display");
   });
