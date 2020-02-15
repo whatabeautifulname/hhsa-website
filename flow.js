@@ -1,5 +1,43 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const $navbarBurgers = Array.prototype.slice.call(
+    document.querySelectorAll(".navbar-burger"),
+    0
+  );
+
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach(el => {
+      el.addEventListener("click", () => {
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+        el.classList.toggle("is-active");
+        $target.classList.toggle("is-active");
+      });
+    });
+  }
+});
+var v = document.createElement("myVideo");
+
+v.addEventListener("error", function (e) {
+    console.log("Error while loading the video");
+});
+
+v.addEventListener("loadeddata", function () {
+    console.log("Video has started loading successfully!");
+});
+
+v.src = "https://students.washington.edu/whitec23/portfolio/media/4wxdn.mp4"
+
+
+
 
 $(document).ready(function() {
+  $('.dupOfficer').hover(function() {
+    $('.info-content-box').css('filter', 'blur(6px)');
+  }, function() {
+    // on mouseout, reset the background colour
+    $('.info-content-box').css('filter', 'blur(0px)');
+  });
+
   $('#2019events').click(function() {
      $("#z1").removeClass("hidden-display");
       lastyearevents();
