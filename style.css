@@ -5,31 +5,16 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
 
 html {
-  
-  background: -moz-linear-gradient(#BC8080, #808080); /* FF 3.6+ */  
-    background: -ms-linear-gradient(#BC8080, #808080); /* IE10 */  
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BC8080), color-stop(100%, #ffffff)); /* Safari 4+, Chrome 2+ */  
-    background: -webkit-linear-gradient(#BC8080, #808080); /* Safari 5.1+, Chrome 10+ */  
-    background: -o-linear-gradient(#BC8080, #808080); /* Opera 11.10 */  
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#BC8080', endColorstr=#808080); /* IE6 & IE7 */  
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=#808080)"; /* IE8+ */  
-    background: linear-gradient(#BC8080, #808080); /* the standard */  
-   /* background: linear-gradient(to bottom, #BC8080, #808080); */
-   /* background-attachment: fixed; */
-  background-repeat: no-repeat;  
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC8080), to(#808080));
+  background: linear-gradient(to bottom, #BC8080, #808080);
+   background-attachment: fixed;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center;
   align-content: space-between;
   font-family: helvetica;
-}
-
-.background-color-html {
-  width: 200px;
-  height: 800px;
-  background-color: #808080;
-  z-index: -5;
-  visibility: hidden;
 }
 
 .border {
@@ -77,16 +62,13 @@ html {
 }
 
 .side-container {
-  /* border: solid red 3px;
-  border-radius: 10%; */
   display: flex;
   flex-direction: column;
   position: fixed;
   width: 100%;
   height: auto;
-  top: 30%;
-  left: 90%;
 
+  left: 90%;
 
 }
 
@@ -94,8 +76,8 @@ html {
   width: 10vw;
 }
 
-#fb:hover {
-  content: url('https://students.washington.edu/whitec23/portfolio/pics/hoverfb.png');
+#ig-icon {
+  width: 13vw;
 }
 .text-center {
   display: flex;
@@ -109,7 +91,7 @@ html {
 
 .space-evenly {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
 }
 
 .event-container {
@@ -186,9 +168,9 @@ height: 100px;
   display: none;
 }
 
-a.navbar-item {
+.navbar-menu {
     font-size: 30pt;
-  font-family: Impact, Oswald;
+  font-family: Impact;
   color: linear-gradient(to right, #CEAA47, #808080);
 }
 
@@ -201,12 +183,12 @@ a.navbar-item {
 #hip-title {
   color: white;
      font-size: 50pt;
-  font-family: Impact, Oswald;
+  font-family: Impact;
  
 }
 
 #green {
-
+  background-image: -webkit-gradient(linear, left top, right top, from(#CEAA47), to(#808080));
   background-image: linear-gradient(to right, #CEAA47, #808080);
 
 }
@@ -231,20 +213,15 @@ section div button h1 {
   font-size: 3vw;
 }
   span#theteam {
-    word-spacing: -10px;
+    word-spacing: -8px;
     letter-spacing: -2px;
 }
 
-
-@media only screen and (min-width: 900px) {
-  .side-container {
-  top: 20%;
+@media only screen and (max-width: 1400px) {
+   .side-container {
+      top: 200px;
   }
-
-
-  /* .wds {
-    left: 10%;
-  } */
+  
 }
 @media only screen and (max-width: 1024px) {
   .top-title {
@@ -254,24 +231,29 @@ section div button h1 {
     
     left: 35%;
   }
-
+  
 }
 
 @media only screen and (max-width: 900px) {
   
- 
   #z3 {
     display: none;
   }
- .top-title {
-     left: 35%;
- }
- .wds {
-  left: 40%;
-}
+  // .top-title {
+  //   left: 35%;
+  // }
   
 }
 
+@media only screen and (min-width: 1130px) {
+   .side-container {
+    display: none;
+  }
+  
+  .top-title {
+    left: 45%;
+  }
+}
 .none {
   display: none;
 }
@@ -371,11 +353,6 @@ animation for hip hop tab?
 
 }
 
-.black {
-  color: black;
-  opacity: .8;
-}
-
 .graffitifont {
    font-family: 'Permanent Marker', cursive;
 }
@@ -420,14 +397,14 @@ animation for hip hop tab?
 }
 
 .image-placeholder:hover ~ .hipness:after{
-     position: absolute;
-     transform: translateY(150px);
-     font-family: 'Fredericka the Great', cursive;
-     font-size: 2vw;
-     z-index: 5;
-     color: lime;
-     left: 450px;
-     visibility: visible;
+  //   position: absolute;
+  // // transform: translateY(150px);
+  // font-family: 'Fredericka the Great', cursive;
+  //  font-size: 2vw;
+  // z-index: 5;
+  // color: lime;
+  // left: 450px;
+  // visibility: visible;
   }
 
 #hhsaprez:hover ~ .hipnessprez:after {
@@ -581,9 +558,10 @@ animation for hip hop tab?
   
 }
 
-.wds {
-  width: 400px;
-  position: absolute;
-  top: 25%;
-  left: 0%;
+.yearOne {
+  display: flex; width: 100%; height: 150px; background-color: transparent; color: white; font-size: 70pt; font-family: impact; justify-content: center;
+}
+
+#event7 {
+  
 }
